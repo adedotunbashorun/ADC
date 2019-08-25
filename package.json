@@ -1,0 +1,54 @@
+{
+  "name": "fashoncartapi",
+  "version": "1.0.0",
+  "description": "a fashon cart application",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config src/index.js",
+    "start": "nodemon src/index.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://dollarman1@bitbucket.org/adedolapoo/fashioncasts-api.git"
+  },
+  "keywords": [
+    "fashon",
+    "cast"
+  ],
+  "author": "adedotun olawale",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/adedolapoo/fashioncasts-api#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.9.1",
+    "mysql2": "^1.6.5",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^6.3.0",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "nodemon": "^1.19.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "pusher": "^2.2.2",
+    "sequelize": "^5.16.0",
+    "sequelize-cli": "^5.5.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "dotenv": "^8.0.0",
+    "mocha": "^5.2.0",
+    "request": "^2.88.0",
+    "should": "^13.2.3",
+    "superagent": "^4.0.0-beta.5",
+    "supertest": "^3.3.0"
+  },
+  "engines": {
+    "node": ">= 8.11.3",
+    "npm": ">= 6.4.0"
+  }
+}
